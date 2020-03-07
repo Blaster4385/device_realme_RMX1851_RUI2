@@ -10,6 +10,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # GSI
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
+# Light
+PRODUCT_PACKAGES += \
+    android.hardware.light@2.0-service.realme
+
 # Platform
 TARGET_BOARD_PLATFORM := sdm710
 
