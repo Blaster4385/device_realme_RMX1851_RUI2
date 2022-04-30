@@ -16,6 +16,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.realme
 
+# Overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay
+
 # Platform
 TARGET_BOARD_PLATFORM := sdm710
 
