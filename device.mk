@@ -25,7 +25,8 @@ PRODUCT_PACKAGES += \
 
 # Overlay
 PRODUCT_PACKAGES += \
-    RealmeFramework
+    RealmeFramework \
+    RealmeSystemUI
 
 # Platform
 TARGET_BOARD_PLATFORM := sdm710
