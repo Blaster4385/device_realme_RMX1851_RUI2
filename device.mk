@@ -24,8 +24,8 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.realme
 
 # Overlay
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
+PRODUCT_PACKAGES += \
+    RealmeFramework
 
 # Platform
 TARGET_BOARD_PLATFORM := sdm710
