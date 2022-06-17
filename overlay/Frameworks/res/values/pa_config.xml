@@ -49,4 +49,7 @@
     <integer name="config_oneFingerSwipeDownKeyCode">256</integer>
     <integer name="config_oneFingerSwipeLeftKeyCode">257</integer>
 
+    <!-- Allow devices override audio panel location to the left side -->
+    <bool name="config_audioPanelOnLeftSide">false</bool>
+
 </resources>
