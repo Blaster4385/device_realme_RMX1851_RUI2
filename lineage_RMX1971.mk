@@ -4,18 +4,18 @@
 # SPDX-License-Identifer: Apache-2.0
 #
 
-# Inherit some common Mokee stuff.
-$(call inherit-product, vendor/mokee/config/common_full_phone.mk)
+# Inherit some common LineageOS stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from RMX1971 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1971
-PRODUCT_NAME := mokee_RMX1971
-PRODUCT_BRAND := Realme
-PRODUCT_MODEL := Realme Q
-PRODUCT_MANUFACTURER := Realme
+PRODUCT_NAME := lineage_RMX1971
+PRODUCT_BRAND := realme
+PRODUCT_MODEL := realme Q
+PRODUCT_MANUFACTURER := realme
 
 PRODUCT_GMS_CLIENTID_BASE := android-realme
 
