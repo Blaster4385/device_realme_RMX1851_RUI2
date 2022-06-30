@@ -110,5 +110,9 @@ TARGET_USES_MKE2FS := true
 # SEPolicy
 include device/qcom/sepolicy/sepolicy.mk
 
+# VINTF
+DEVICE_MANIFEST_FILE += $(LOCAL_PATH)/manifest.xml
+DEVICE_MATRIX_FILE += $(LOCAL_PATH)/compatibility_matrix.xml
+
 # VNDK
 BOARD_VNDK_VERSION := current
