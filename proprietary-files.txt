@@ -267,3 +267,6 @@ vendor/lib64/libperfgluelayer.so
 vendor/lib64/libqti-perfd-client.so
 vendor/lib64/libqti-perfd.so
 vendor/lib64/libqti-util.so
+
+# Power
+vendor/etc/powerhint.xml
