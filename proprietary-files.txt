@@ -195,3 +195,8 @@ vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterprovision.so
 vendor/lib64/libkeymasterutils.so
 vendor/lib64/libqtikeymaster4.so
+
+# Neural networks
+vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-qti
+vendor/etc/init/android.hardware.neuralnetworks@1.2-service-qti.rc
+vendor/lib64/libhexagon_nn_stub.so
