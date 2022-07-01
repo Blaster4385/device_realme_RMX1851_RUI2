@@ -69,6 +69,11 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
+# DRM
+PRODUCT_PACKAGES += \
+    android.hardware.drm@1.2-service.clearkey
+    android.hardware.drm@1.2-service.vendor
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@2.0-impl-qti-display \

@@ -51,6 +51,55 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
+# DRM (OEM Crypto API)
+vendor/lib64/libcpion.so
+vendor/lib64/libminkdescriptor.so
+
+# DRM (OEM Crypto API) - from google/coral
+vendor/lib64/liboemcrypto.so|de8722bdd263a5dd8e092bf8711f8668a00700fc
+
+# DRM (QSEECom)
+vendor/bin/qseecomd
+vendor/etc/init/qseecomd.rc
+vendor/lib/libGPreqcancel.so
+vendor/lib/libGPreqcancel_svc.so
+vendor/lib/libQSEEComAPI.so
+vendor/lib/libSecureUILib.so
+vendor/lib/libStDrvInt.so
+vendor/lib/libcppf.so
+vendor/lib/libdrmfs.so
+vendor/lib/libdrmtime.so
+vendor/lib/libqisl.so
+vendor/lib/librpmb.so
+vendor/lib/libsecureui.so
+vendor/lib/libsecureui_svcsock.so
+vendor/lib/libssd.so
+vendor/lib/libtzdrmgenprov.so
+vendor/lib64/libGPreqcancel.so
+vendor/lib64/libGPreqcancel_svc.so
+vendor/lib64/libQSEEComAPI.so
+vendor/lib64/libSecureUILib.so
+vendor/lib64/libStDrvInt.so
+vendor/lib64/libcpion.so
+vendor/lib64/libdrmfs.so
+vendor/lib64/libdrmtime.so
+vendor/lib64/libqisl.so
+vendor/lib64/librpmb.so
+vendor/lib64/libsecureui.so
+vendor/lib64/libsecureui_svcsock.so
+vendor/lib64/libssd.so
+vendor/lib64/libtzdrmgenprov.so
+
+# DRM (QSEECom) - from google/coral
+vendor/lib/libops.so|de8722bdd263a5dd8e092bf8711f8668a00700fc
+vendor/lib64/libops.so|de8722bdd263a5dd8e092bf8711f8668a00700fc
+
+# DRM (Widevine)
+vendor/bin/hw/android.hardware.drm@1.2-service.widevine
+vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc
+vendor/lib64/mediadrm/libwvdrmengine.so
+vendor/lib64/libwvhidl.so
+
 # Display (HDR)
 vendor/lib64/libhdr_tm.so
 
