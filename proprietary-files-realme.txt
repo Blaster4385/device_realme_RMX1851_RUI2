@@ -1,5 +1,41 @@
 # Unpinned files are extracted from RMX1971-user 10 QKQ1.190918.001 1621845351 release-keys
 
+# ADSP modules
+vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so
+vendor/lib/rfsa/adsp/capi_v2_aptX_HD.so
+vendor/lib/rfsa/adsp/dirac-capiv2-game.so
+vendor/lib/rfsa/adsp/dirac-capiv2.so
+vendor/lib/rfsa/adsp/dirac_resource.dar
+vendor/lib/rfsa/adsp/dirac_resource_game.dar
+vendor/lib/rfsa/adsp/libVC1Dec.so
+vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so
+vendor/lib/rfsa/adsp/libVDHexagonBlurless_skel.so
+vendor/lib/rfsa/adsp/libVDHexagonBlurless_v2_skel.so
+vendor/lib/rfsa/adsp/libVDHexagonSuperPhoto_skel.so
+vendor/lib/rfsa/adsp/libapps_mem_heap.so
+vendor/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so
+vendor/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel.so
+vendor/lib/rfsa/adsp/libarcsoft_portraitSN_hvx_skel.so
+vendor/lib/rfsa/adsp/libcamera_nn_skel.so
+vendor/lib/rfsa/adsp/libclock_adjust_skel.so
+vendor/lib/rfsa/adsp/libcvpdsp_skel.so
+vendor/lib/rfsa/adsp/libdepthmap_skel.so
+vendor/lib/rfsa/adsp/libdspCV_skel.so
+vendor/lib/rfsa/adsp/libfastcvadsp.so
+vendor/lib/rfsa/adsp/libfastcvdsp_skel.so
+vendor/lib/rfsa/adsp/libhexagon_nn_skel.so
+vendor/lib/rfsa/adsp/libproxy_skel.so
+vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so
+vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
+vendor/lib/rfsa/adsp/libscveT2T_skel.so
+vendor/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so
+vendor/lib/rfsa/adsp/libsns_device_mode_skel.so
+vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
+vendor/lib/rfsa/adsp/libthread_blur_skel.so
+vendor/lib64/rfsa/adsp/libBeautyShot_skel.so
+vendor/lib64/rfsa/adsp/libdsp_streamer_add_constant.so
+vendor/lib64/rfsa/adsp/libdsp_streamer_skel.so
+
 # Audio ACDB
 vendor/etc/acdbdata/19691/Bluetooth_cal.acdb
 vendor/etc/acdbdata/19691/General_cal.acdb
@@ -325,6 +361,66 @@ vendor/firmware/tp/19691/FW_HX_NF83112A_DSJM.img
 vendor/firmware/tp/19691/FW_HX_NF83112A_DSJM_FAE.img
 vendor/firmware/tp/19691/FW_HX_NF83112A_DSJM_TEST.img
 
+# Firmware
+vendor/firmware/fastchg/19691/oppo_vooc_fw.bin
+vendor/firmware/fastchg/19691/oppo_vooc_fw_n76e.bin
+vendor/firmware/ufs/MICRON-128GB-UFS-MT.bin
+vendor/firmware/ufs/SAMSUNG-KM2B8001CM-BB01.bin
+vendor/firmware/ufs/SAMSUNG-KM8B8001JM-BC01.bin
+vendor/firmware/ufs/SKhynix-H9HQ16AECMMDAR.bin
+vendor/firmware/ufs/SKhynix-H9HQ53ACPMMDAR.bin
+vendor/firmware/ufs/SKhynix-H9HQ53AECMMDAR.bin
+vendor/firmware/ufs/move_target_ufs_fw_to_opporeserve1.sh
+vendor/firmware/a225_pfp.fw
+vendor/firmware/a225_pm4.fw
+vendor/firmware/a225p5_pm4.fw
+vendor/firmware/a300_pfp.fw
+vendor/firmware/a300_pm4.fw
+vendor/firmware/a330_pfp.fw
+vendor/firmware/a330_pm4.fw
+vendor/firmware/a420_pfp.fw
+vendor/firmware/a420_pm4.fw
+vendor/firmware/a530_gpmu.fw2
+vendor/firmware/a530_pfp.fw
+vendor/firmware/a530_pm4.fw
+vendor/firmware/a530v1_pfp.fw
+vendor/firmware/a530v1_pm4.fw
+vendor/firmware/a530v2_seq.fw2
+vendor/firmware/a530v3_gpmu.fw2
+vendor/firmware/a530v3_seq.fw2
+vendor/firmware/a540_gpmu.fw2
+vendor/firmware/a615_zap.b00
+vendor/firmware/a615_zap.b01
+vendor/firmware/a615_zap.b02
+vendor/firmware/a615_zap.elf
+vendor/firmware/a615_zap.mdt
+vendor/firmware/a630_gmu.bin
+vendor/firmware/a630_sqe.fw
+vendor/firmware/alipay.b00
+vendor/firmware/alipay.b01
+vendor/firmware/alipay.b02
+vendor/firmware/alipay.b03
+vendor/firmware/alipay.b04
+vendor/firmware/alipay.b05
+vendor/firmware/alipay.b06
+vendor/firmware/alipay.b07
+vendor/firmware/alipay.mdt
+vendor/firmware/dpAP_full.mbn
+vendor/firmware/dpAP_mini.mbn
+vendor/firmware/leia_pfp_470.fw
+vendor/firmware/leia_pm4_470.fw
+
+# Firmware - from realme/RMX1971
+vendor/firmware/a_fp.b00|640419b3c01e088e08a74fd01a00e319f02045e9
+vendor/firmware/a_fp.b01|66c16231a6fdde787a811c0bdfa345f8f1e64b51
+vendor/firmware/a_fp.b02|2bcc9fd27b7dc91b7ace0ab83d3e41818062cc53
+vendor/firmware/a_fp.b03|015829a1c64e127dc85117bfbaed01de24c122c1
+vendor/firmware/a_fp.b04|b6472569b60b791e4fed968772eb32f7780f7539
+vendor/firmware/a_fp.b05|8d746b7adcaf976a2d8958422881b63e43d4cf6f
+vendor/firmware/a_fp.b06|567ec80d7933db26f516c7459ab7da9195e79bc8
+vendor/firmware/a_fp.b07|86dfe80d0757f586321d7d74829101d12781f1a6
+vendor/firmware/a_fp.mdt|c4320ba070f1ff855d8ab318e55934387c0712a8
+
 # Media configs
 vendor/etc/media_codecs_oppo_performance.xml
 vendor/etc/media_codecs_oppo_video.xml
@@ -389,6 +485,9 @@ vendor/etc/sensors/config/stk3x3x_0.json
 vendor/etc/sensors/config/tsl2540_0.json
 vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sns_reg_config
+
+# Thermal configs
+vendor/etc/thermal-engine.conf
 
 # WiFi firmware
 vendor/etc/wifi/bdwlan_19691.bin
