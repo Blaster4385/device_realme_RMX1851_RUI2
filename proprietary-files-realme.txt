@@ -385,3 +385,6 @@ vendor/etc/sensors/config/stk3x3x_0.json
 vendor/etc/sensors/config/tsl2540_0.json
 vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sns_reg_config
+
+# WiFi firmware
+vendor/etc/wifi/bdwlan_19691.bin
