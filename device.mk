@@ -97,9 +97,10 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.9 \
     vendor.qti.hardware.display.mapper@2.0.vendor
 
-# Init
+# GNSS
 PRODUCT_PACKAGES += \
-    init.recovery.qcom.rc
+    android.hardware.gnss@2.1.vendor \
+    android.hardware.gnss@3.0.vendor
 
 # GSI
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
@@ -107,6 +108,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor
+
+# Init
+PRODUCT_PACKAGES += \
+    init.recovery.qcom.rc
 
 # Keymaster
 PRODUCT_PACKAGES += \
