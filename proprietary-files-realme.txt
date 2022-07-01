@@ -324,3 +324,9 @@ vendor/etc/qdcm_calib_data_oppo18621_hx83112a_1080_2340_video_mode_dsi_panel.xml
 vendor/firmware/tp/19691/FW_HX_NF83112A_DSJM.img
 vendor/firmware/tp/19691/FW_HX_NF83112A_DSJM_FAE.img
 vendor/firmware/tp/19691/FW_HX_NF83112A_DSJM_TEST.img
+
+# RIL
+vendor/lib/vendor.oppo.hardware.radio.oppoappradio@1.0.so
+vendor/lib/vendor.oppo.hardware.radio.opporadio@1.0.so
+vendor/lib64/vendor.oppo.hardware.radio.oppoappradio@1.0.so
+vendor/lib64/vendor.oppo.hardware.radio.opporadio@1.0.so

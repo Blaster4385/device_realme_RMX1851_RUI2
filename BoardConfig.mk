@@ -128,6 +128,9 @@ TARGET_USES_MKE2FS := true
 # SEPolicy
 include device/qcom/sepolicy/sepolicy.mk
 
+# RIL
+ENABLE_VENDOR_RIL_SERVICE := true
+
 # VINTF
 DEVICE_MANIFEST_FILE += $(LOCAL_PATH)/manifest.xml
 DEVICE_MATRIX_FILE += $(LOCAL_PATH)/compatibility_matrix.xml
