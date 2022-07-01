@@ -212,6 +212,11 @@
         <fqname>@1.0::IDms/default</fqname>
     </hal>
     <hal format="hidl">
+        <name>vendor.lineage.livedisplay</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.0::IPictureAdjustment/default</fqname>
+    </hal>
+    <hal format="hidl">
         <name>vendor.oppo.engnative.engineer</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::IEngineer/default</fqname>
