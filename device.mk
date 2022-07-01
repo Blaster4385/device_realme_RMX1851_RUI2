@@ -56,6 +56,19 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@1.0.vendor \
     vendor.qti.hardware.btconfigstore@2.0.vendor
 
+# Camera
+PRODUCT_PACKAGES += \
+    android.hardware.camera.provider@2.4-impl \
+    android.hardware.camera.provider@2.4-service
+
+PRODUCT_PACKAGES += \
+    libcamera2ndk_vendor \
+    libdng_sdk.vendor \
+    libgui_vendor \
+    libstdc++.vendor \
+    vendor.qti.hardware.camera.device@1.0.vendor \
+    vendor.qti.hardware.camera.postproc@1.0.vendor
+
 # Init
 PRODUCT_PACKAGES += \
     init.recovery.qcom.rc
