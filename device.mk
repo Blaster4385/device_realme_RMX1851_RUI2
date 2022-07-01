@@ -122,6 +122,13 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.0-impl.recovery \
     android.hardware.health@2.0-service
 
+# IPACM
+PRODUCT_PACKAGES += \
+    ipacm \
+    IPACM_cfg.xml \
+    libipanat \
+    liboffloadhal
+
 # Init
 PRODUCT_PACKAGES += \
     init.recovery.qcom.rc
