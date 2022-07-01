@@ -109,6 +109,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor
 
+# Health
+PRODUCT_PACKAGES += \
+    android.hardware.health@2.0-impl \
+    android.hardware.health@2.0-impl.recovery \
+    android.hardware.health@2.0-service
+
 # Init
 PRODUCT_PACKAGES += \
     init.recovery.qcom.rc
