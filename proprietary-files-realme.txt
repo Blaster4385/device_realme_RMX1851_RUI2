@@ -325,6 +325,10 @@ vendor/firmware/tp/19691/FW_HX_NF83112A_DSJM.img
 vendor/firmware/tp/19691/FW_HX_NF83112A_DSJM_FAE.img
 vendor/firmware/tp/19691/FW_HX_NF83112A_DSJM_TEST.img
 
+# Media configs
+vendor/etc/media_codecs_oppo_performance.xml
+vendor/etc/media_codecs_oppo_video.xml
+
 # RIL
 vendor/lib/vendor.oppo.hardware.radio.oppoappradio@1.0.so
 vendor/lib/vendor.oppo.hardware.radio.opporadio@1.0.so
