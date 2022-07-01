@@ -308,3 +308,19 @@ vendor/lib/libmmcamera_faceproc.so
 vendor/lib/libmmcamera_faceproc2.so
 vendor/lib64/libmmcamera_faceproc.so
 vendor/lib64/libmmcamera_faceproc2.so
+
+# Display
+vendor/bin/hw/vendor.oppo.hardware.mmdisplayfeature@1.0-service
+vendor/etc/init/vendor.oppo.hardware.mmdisplayfeature@1.0-service.rc
+vendor/lib/hw/vendor.oppo.hardware.mmdisplayfeature@1.0-impl.so
+vendor/lib/vendor.oppo.hardware.mmdisplayfeature@1.0.so
+vendor/lib64/hw/vendor.oppo.hardware.mmdisplayfeature@1.0-impl.so
+vendor/lib64/vendor.oppo.hardware.mmdisplayfeature@1.0.so
+
+# Display calibration
+vendor/etc/qdcm_calib_data_oppo18621_hx83112a_1080_2340_video_mode_dsi_panel.xml
+
+# Display firmware
+vendor/firmware/tp/19691/FW_HX_NF83112A_DSJM.img
+vendor/firmware/tp/19691/FW_HX_NF83112A_DSJM_FAE.img
+vendor/firmware/tp/19691/FW_HX_NF83112A_DSJM_TEST.img
