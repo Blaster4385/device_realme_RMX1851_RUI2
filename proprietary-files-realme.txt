@@ -1,1 +1,19 @@
 # Unpinned files are extracted from RMX1971-user 10 QKQ1.190918.001 1621845351 release-keys
+
+# Audio ACDB
+vendor/etc/acdbdata/19691/Bluetooth_cal.acdb
+vendor/etc/acdbdata/19691/General_cal.acdb
+vendor/etc/acdbdata/19691/Global_cal.acdb
+vendor/etc/acdbdata/19691/Handset_cal.acdb
+vendor/etc/acdbdata/19691/Hdmi_cal.acdb
+vendor/etc/acdbdata/19691/Headset_cal.acdb
+vendor/etc/acdbdata/19691/Speaker_cal.acdb
+
+# Audio firmware
+vendor/firmware/tfa98xx_19691.cnt
+
+# Audio hardware
+vendor/lib/hw/vendor.oppo.hardware.bluetooth_audio@1.0-impl.so
+vendor/lib/vendor.oppo.hardware.bluetooth_audio@1.0.so
+vendor/lib64/hw/vendor.oppo.hardware.bluetooth_audio@1.0-impl.so
+vendor/lib64/vendor.oppo.hardware.bluetooth_audio@1.0.so

@@ -1,1 +1,24 @@
 # Unpinned files are extracted from RMX1971-user 10 QKQ1.190918.001 1621845351 release-keys
+
+# Audio
+vendor/lib/libadiertac.so
+vendor/lib/libadm.so
+vendor/lib/libaudcal.so
+vendor/lib/libqtigef.so
+vendor/lib/libssrec.so
+
+# Audio ACDB
+vendor/lib/libacdb-fts.so
+vendor/lib/libacdbloader.so
+vendor/lib/libacdbrtac.so
+
+# Audio FX
+vendor/lib/soundfx/libasphere.so
+vendor/lib/soundfx/libdiraceffect.so
+vendor/lib/soundfx/libshoebox.so
+
+# Audio hardware
+lib/vndk-29/libaudioroute.so
+vendor/lib/hw/audio.primary.sdm710.so
+vendor/lib/liba2dpoffload.so
+vendor/lib/libaudio_log_utils.so
