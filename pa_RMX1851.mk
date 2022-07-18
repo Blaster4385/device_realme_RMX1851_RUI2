@@ -12,16 +12,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, vendor/pa/config/common_full_phone.mk)
 
 # Inherit device configurations
-$(call inherit-product, device/realme/RMX1971/device.mk)
+$(call inherit-product, device/realme/RMX1851/device.mk)
 
 # Target configurations
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_DISABLES_GMS := true
 
-PRODUCT_NAME := pa_RMX1971
-PRODUCT_DEVICE := RMX1971
+PRODUCT_NAME := pa_RMX1851
+PRODUCT_DEVICE := RMX1851
 PRODUCT_BRAND := realme
-PRODUCT_MODEL := realme 5 Pro
+PRODUCT_MODEL := realme 3 Pro
 PRODUCT_MANUFACTURER := realme
 
 PRODUCT_GMS_CLIENTID_BASE := android-realme

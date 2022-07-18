@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pa_RMX1971.mk
+    $(LOCAL_DIR)/pa_RMX1851.mk
 
 COMMON_LUNCH_CHOICES := \
-    pa_RMX1971-userdebug
+    pa_RMX1851-userdebug
